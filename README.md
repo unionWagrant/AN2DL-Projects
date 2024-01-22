@@ -8,10 +8,10 @@ This repository contains the implementation and documentation of two key challen
 The first challenge focuses on binary image classification, distinguishing between healthy and unhealthy data.
 
 ### Key Features
-- **Data Preprocessing:** Includes outlier detection to ensure data quality.
+- **Data Preprocessing:** Includes outlier detection.
 - **Data Augmentation:** Implemented to enhance the model's ability to generalize.
 - **Model Implementation:** Utilized VGG16 for baseline model development.
-- **Transfer Learning:** Applied EfficientNetB0, pre-trained on the ImageNet dataset, to leverage existing learned patterns.
+- **Transfer Learning:** Applied EfficientNetB0, MobileNet, pre-trained on the ImageNet dataset, to leverage existing learned patterns.
 - **Fine-Tuning:** Conducted by unfreezing layers (except for BatchNormalization layers) to refine model performance on specific data.
 
 ## Challenge 2: Univariate Time Series Forecasting
