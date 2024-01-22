@@ -1,7 +1,7 @@
-Artificial Neural Network and Deep Learning Projects (AN2DL)
+#Artificial Neural Network and Deep Learning Projects (AN2DL)
 This repository contains the implementation and documentation of two key challenges in the field of Artificial Neural Networks and Deep Learning. The projects demonstrate a practical approach to solving problems in image classification and time series forecasting.
 
-Challenge 1: Binary Image Classification
+#Challenge 1: Binary Image Classification
 Overview
 The first challenge focuses on binary image classification, distinguishing between healthy and unhealthy data.
 
@@ -11,7 +11,7 @@ Data Augmentation: Implemented to enhance the model's ability to generalize.
 Model Implementation: Utilized VGG16 for baseline model development.
 Transfer Learning: Applied EfficientNetB0, pre-trained on the ImageNet dataset, to leverage existing learned patterns.
 Fine-tuning: Conducted by unfreezing layers (except for BatchNormalization layers) to refine model performance on specific data.
-Challenge 2: Univariate Time Series Forecasting
+#Challenge 2: Univariate Time Series Forecasting
 Overview
 The second challenge deals with forecasting univariate time series data, encompassing 48,000 variable-length series across 6 categories.
 
